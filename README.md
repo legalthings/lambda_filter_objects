@@ -20,14 +20,14 @@ Lambda function can be locally simulated for testing.
 python setup.py test
 
 
-## Example
+## Usage
 
   This lambda filters a list of objects based on a string value.
 A list of one or multiple keywords are checked against this value. (not case sensitive by default, but available by setting a parameter)
   If the value is more than one layer deep, the key has to be passed as 'layer1Name.layer2Name.key'.
 
 
-### List of objects
+### Example list of objects
   ```json
 [
   {
@@ -75,7 +75,7 @@ Make a `[POST]` request to the Lambda with the following data.
 }
 ```
 
-The result is an array of objects that contained at least one of the keyworda in the value of the specified key.
+The result is an array of objects that contained at least one of the keywords in the value of the specified key.
 
 ```json
 [
